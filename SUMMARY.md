@@ -1,6 +1,11 @@
 # Summary
 
 * [Application Process](makersquares_application_process/README.md)
+   * [Online Application](makersquares_application_process/online_application.md)
+   * [First Interview](makersquares_application_process/first_interview.md)
+   * [Written Application](makersquares_application_process/written_application.md)
+   * [Take Home Coding Challenge](makersquares_application_process/coding_challenge.md)
+   * [Technical Interview](makersquares_application_process/pairing_session.md)
 * [Coding Challenge Prep](pairing_session_prep/README.md)
    * [How does a website work?](pairing_session_prep/how_the_web_works.md)
        * [Data](pairing_session_prep/data.md)
@@ -25,6 +30,5 @@
    * [Ruby Classes](pairing_session_prep/ruby_classes.md)
        * [Let's Go For a Ride](pairing_session_prep/lets_go_for_a_ride.md)
    * [Cookbook App](pairing_session_prep/cookbook_app.md)
-   * [Power Rangers App](pairing_session_prep/power_rangers_app.md)
 * [Coding Challenge](coding_challenge/README.md)
 
