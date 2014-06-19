@@ -1,0 +1,578 @@
+<!DOCTYPE HTML>
+<html lang="en-US" manifest="../manifest.appcache">
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Conditionals | Prepping for MakerSquare</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 0.5.2">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    <link rel="next" href="../pairing_session_prep/case_statements.html" />
+    
+    
+    <link rel="prev" href="../pairing_session_prep/loops.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book"  data-level="2.2.8" data-basepath=".." data-revision="1403195216508">
+    <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    
+    <a href="https://github.com/null" target="_blank" class="btn pull-left home-bookmark" aria-label="GitHub home"><i class="fa fa-bookmark-o"></i></a>
+    
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    <span id="font-settings-wrapper">
+        <a href="#" class="btn pull-left toggle-font-settings" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="btn-group btn-block">
+        <button id="reduce-font-size" class="btn btn-default">A</button>
+        <button id="enlarge-font-size" class="btn btn-default">A</button>
+    </div>
+
+    <ul class="list-group font-family-list">
+        <li class="list-group-item" data-font="0">Serif</li>
+        <li class="list-group-item" data-font="1">Sans</li>
+    </ul>
+
+    <div class="btn-group btn-group-xs btn-block color-theme-list">
+        <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+        <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </span>
+
+    <!-- Actions Right -->
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-spinner fa-spin"></i>
+        <a href="../" >Prepping for MakerSquare</a>
+    </h1>
+</div>
+
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+
+        
+
+        
+
+        
+
+        <li data-level="0" data-path="index.html">
+            <a href="../"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+    
+        <li class="chapter " data-level="1" data-path="makersquares_application_process/README.html">
+            
+            <a href="../makersquares_application_process/README.html">
+                <i class="fa fa-check"></i> <b>1.</b> Application Process
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="pairing_session_prep/README.html">
+            
+            <a href="../pairing_session_prep/README.html">
+                <i class="fa fa-check"></i> <b>2.</b> Coding Challenge Prep
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="pairing_session_prep/how_the_web_works.html">
+            
+            <a href="../pairing_session_prep/how_the_web_works.html">
+                <i class="fa fa-check"></i> <b>2.1.</b> How does a website work?
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="pairing_session_prep/data.html">
+            
+            <a href="../pairing_session_prep/data.html">
+                <i class="fa fa-check"></i> <b>2.1.1.</b> Data
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="pairing_session_prep/talk_code_to_me.html">
+            
+            <a href="../pairing_session_prep/talk_code_to_me.html">
+                <i class="fa fa-check"></i> <b>2.1.2.</b> Talk code to me
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="pairing_session_prep/inputoutput.html">
+            
+            <a href="../pairing_session_prep/inputoutput.html">
+                <i class="fa fa-check"></i> <b>2.1.3.</b> Input/Output
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="pairing_session_prep/http.html">
+            
+            <a href="../pairing_session_prep/http.html">
+                <i class="fa fa-check"></i> <b>2.1.4.</b> HTTP
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="pairing_session_prep/web_frameworks_and_you.html">
+            
+            <a href="../pairing_session_prep/web_frameworks_and_you.html">
+                <i class="fa fa-check"></i> <b>2.1.5.</b> Web Frameworks and You
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="pairing_session_prep/pulling_it_together.html">
+            
+            <a href="../pairing_session_prep/pulling_it_together.html">
+                <i class="fa fa-check"></i> <b>2.1.6.</b> Pulling it Together
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="pairing_session_prep/ruby_fundamentals.html">
+            
+            <a href="../pairing_session_prep/ruby_fundamentals.html">
+                <i class="fa fa-check"></i> <b>2.2.</b> Ruby Fundamentals
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="pairing_session_prep/comments,_methods,_&amp;_math.html">
+            
+            <a href="../pairing_session_prep/comments,_methods,_&amp;_math.html">
+                <i class="fa fa-check"></i> <b>2.2.1.</b> Comments
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="pairing_session_prep/methods.html">
+            
+            <a href="../pairing_session_prep/methods.html">
+                <i class="fa fa-check"></i> <b>2.2.2.</b> Methods
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="pairing_session_prep/math.html">
+            
+            <a href="../pairing_session_prep/math.html">
+                <i class="fa fa-check"></i> <b>2.2.3.</b> Math
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="pairing_session_prep/strings_and_arrays.html">
+            
+            <a href="../pairing_session_prep/strings_and_arrays.html">
+                <i class="fa fa-check"></i> <b>2.2.4.</b> Strings
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="pairing_session_prep/arrays.html">
+            
+            <a href="../pairing_session_prep/arrays.html">
+                <i class="fa fa-check"></i> <b>2.2.5.</b> Arrays
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="pairing_session_prep/variables.html">
+            
+            <a href="../pairing_session_prep/variables.html">
+                <i class="fa fa-check"></i> <b>2.2.6.</b> Variables
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="pairing_session_prep/loops.html">
+            
+            <a href="../pairing_session_prep/loops.html">
+                <i class="fa fa-check"></i> <b>2.2.7.</b> Loops
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="pairing_session_prep/conditionals_&amp;_case_statements.html">
+            
+            <a href="../pairing_session_prep/conditionals_&amp;_case_statements.html">
+                <i class="fa fa-check"></i> <b>2.2.8.</b> Conditionals
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="pairing_session_prep/case_statements.html">
+            
+            <a href="../pairing_session_prep/case_statements.html">
+                <i class="fa fa-check"></i> <b>2.2.9.</b> Case Statements
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="pairing_session_prep/hashes.html">
+            
+            <a href="../pairing_session_prep/hashes.html">
+                <i class="fa fa-check"></i> <b>2.2.10.</b> Hashes
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="pairing_session_prep/additional_methods_&amp;_extra_practice.html">
+            
+            <a href="../pairing_session_prep/additional_methods_&amp;_extra_practice.html">
+                <i class="fa fa-check"></i> <b>2.2.11.</b> More Useful Methods
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="pairing_session_prep/extra_practice.html">
+            
+            <a href="../pairing_session_prep/extra_practice.html">
+                <i class="fa fa-check"></i> <b>2.2.12.</b> Extra Practice
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="pairing_session_prep/ruby_classes.html">
+            
+            <a href="../pairing_session_prep/ruby_classes.html">
+                <i class="fa fa-check"></i> <b>2.3.</b> Ruby Classes
+            </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="pairing_session_prep/lets_go_for_a_ride.html">
+            
+            <a href="../pairing_session_prep/lets_go_for_a_ride.html">
+                <i class="fa fa-check"></i> <b>2.3.1.</b> Let&#39;s Go For a Ride
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="pairing_session_prep/cookbook_app.html">
+            
+            <a href="../pairing_session_prep/cookbook_app.html">
+                <i class="fa fa-check"></i> <b>2.4.</b> Cookbook App
+            </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="pairing_session_prep/power_rangers_app.html">
+            
+            <a href="../pairing_session_prep/power_rangers_app.html">
+                <i class="fa fa-check"></i> <b>2.5.</b> Power Rangers App
+            </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="coding_challenge/README.html">
+            
+            <a href="../coding_challenge/README.html">
+                <i class="fa fa-check"></i> <b>3.</b> Coding Challenge
+            </a>
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Generated using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="page-wrapper" tabindex="-1">
+                <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 66.66666666666667%;min-width: 62.96296296296296%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="../makersquares_application_process/README.html" title="Application Process" class="chapter done new-chapter" data-progress="1" style="left: 3.7037037037037037%;"></a>
+    
+        <a href="../pairing_session_prep/README.html" title="Coding Challenge Prep" class="chapter done new-chapter" data-progress="2" style="left: 7.407407407407407%;"></a>
+    
+        <a href="../pairing_session_prep/how_the_web_works.html" title="How does a website work?" class="chapter done " data-progress="2.1" style="left: 11.11111111111111%;"></a>
+    
+        <a href="../pairing_session_prep/data.html" title="Data" class="chapter done " data-progress="2.1.1" style="left: 14.814814814814815%;"></a>
+    
+        <a href="../pairing_session_prep/talk_code_to_me.html" title="Talk code to me" class="chapter done " data-progress="2.1.2" style="left: 18.51851851851852%;"></a>
+    
+        <a href="../pairing_session_prep/inputoutput.html" title="Input/Output" class="chapter done " data-progress="2.1.3" style="left: 22.22222222222222%;"></a>
+    
+        <a href="../pairing_session_prep/http.html" title="HTTP" class="chapter done " data-progress="2.1.4" style="left: 25.925925925925927%;"></a>
+    
+        <a href="../pairing_session_prep/web_frameworks_and_you.html" title="Web Frameworks and You" class="chapter done " data-progress="2.1.5" style="left: 29.62962962962963%;"></a>
+    
+        <a href="../pairing_session_prep/pulling_it_together.html" title="Pulling it Together" class="chapter done " data-progress="2.1.6" style="left: 33.333333333333336%;"></a>
+    
+        <a href="../pairing_session_prep/ruby_fundamentals.html" title="Ruby Fundamentals" class="chapter done " data-progress="2.2" style="left: 37.03703703703704%;"></a>
+    
+        <a href="../pairing_session_prep/comments,_methods,_&amp;_math.html" title="Comments" class="chapter done " data-progress="2.2.1" style="left: 40.74074074074074%;"></a>
+    
+        <a href="../pairing_session_prep/methods.html" title="Methods" class="chapter done " data-progress="2.2.2" style="left: 44.44444444444444%;"></a>
+    
+        <a href="../pairing_session_prep/math.html" title="Math" class="chapter done " data-progress="2.2.3" style="left: 48.148148148148145%;"></a>
+    
+        <a href="../pairing_session_prep/strings_and_arrays.html" title="Strings" class="chapter done " data-progress="2.2.4" style="left: 51.851851851851855%;"></a>
+    
+        <a href="../pairing_session_prep/arrays.html" title="Arrays" class="chapter done " data-progress="2.2.5" style="left: 55.55555555555556%;"></a>
+    
+        <a href="../pairing_session_prep/variables.html" title="Variables" class="chapter done " data-progress="2.2.6" style="left: 59.25925925925926%;"></a>
+    
+        <a href="../pairing_session_prep/loops.html" title="Loops" class="chapter done " data-progress="2.2.7" style="left: 62.96296296296296%;"></a>
+    
+        <a href="../pairing_session_prep/conditionals_&amp;_case_statements.html" title="Conditionals" class="chapter done " data-progress="2.2.8" style="left: 66.66666666666667%;"></a>
+    
+        <a href="../pairing_session_prep/case_statements.html" title="Case Statements" class="chapter  " data-progress="2.2.9" style="left: 70.37037037037037%;"></a>
+    
+        <a href="../pairing_session_prep/hashes.html" title="Hashes" class="chapter  " data-progress="2.2.10" style="left: 74.07407407407408%;"></a>
+    
+        <a href="../pairing_session_prep/additional_methods_&amp;_extra_practice.html" title="More Useful Methods" class="chapter  " data-progress="2.2.11" style="left: 77.77777777777777%;"></a>
+    
+        <a href="../pairing_session_prep/extra_practice.html" title="Extra Practice" class="chapter  " data-progress="2.2.12" style="left: 81.48148148148148%;"></a>
+    
+        <a href="../pairing_session_prep/ruby_classes.html" title="Ruby Classes" class="chapter  " data-progress="2.3" style="left: 85.18518518518519%;"></a>
+    
+        <a href="../pairing_session_prep/lets_go_for_a_ride.html" title="Let&#39;s Go For a Ride" class="chapter  " data-progress="2.3.1" style="left: 88.88888888888889%;"></a>
+    
+        <a href="../pairing_session_prep/cookbook_app.html" title="Cookbook App" class="chapter  " data-progress="2.4" style="left: 92.5925925925926%;"></a>
+    
+        <a href="../pairing_session_prep/power_rangers_app.html" title="Power Rangers App" class="chapter  " data-progress="2.5" style="left: 96.29629629629629%;"></a>
+    
+        <a href="../coding_challenge/README.html" title="Coding Challenge" class="chapter  new-chapter" data-progress="3" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_329">
+                    
+                        <h1 id="conditionals">Conditionals</h1>
+<p>We&#39;re getting closer to being able to actually do something useful with Ruby. Soon, we&#39;ll be building our first programs, so keep on chugging along, we&#39;re almost there!</p>
+<p>The next thing we need to take a look at are <strong>conditionals</strong>. Most programming languages have some way to deal with what we call <strong>control flow</strong>, or the way that the path of the execution of a program is managed. Depending on some conditions, we often need to decide if we want to run one method or another. Let&#39;s take a look at an example:</p>
+<pre><code class="lang-ruby"><span class="hljs-comment"># in case you need it again</span>
+color_ary = [<span class="hljs-string">"red"</span>, <span class="hljs-string">"green"</span>, <span class="hljs-string">"blue"</span>, <span class="hljs-string">"cyan"</span>, <span class="hljs-string">"magenta"</span>, <span class="hljs-string">"yellow"</span>, <span class="hljs-string">"black"</span>]
+
+<span class="hljs-keyword">if</span> color_ary.<span class="hljs-keyword">include</span>?(<span class="hljs-string">"red"</span>)
+  puts <span class="hljs-string">"this array has my favorite color!"</span>
+<span class="hljs-keyword">else</span>
+  puts <span class="hljs-string">"ah man, this array lacks my favorite things"</span>
+<span class="hljs-keyword">end</span>
+</code></pre>
+<aside>When you see Ruby methods that end with a <code>?</code>, they are usually asking a yes or no question and will return either <code>true</code> or <code>false</code> depending on the answer. For this reason, they are called <strong>boolean methods</strong>.</aside>
+
+<p>Which one did you see happen? We used the <code>include?</code> method on our array which checks to see if the argument passed (in this case, &quot;red&quot;), is inside our array. Of course, our array does have &quot;red&quot;, so the first <code>puts</code> is executed and the second one ignored.</p>
+<p>Now go ahead and check to see if your own favorite color is part of <code>color_ary</code>. If not, what happened?</p>
+<p>Now what about a failed condition?</p>
+<pre><code class="lang-ruby"><span class="hljs-keyword">if</span> color_ary.<span class="hljs-keyword">include</span>?(<span class="hljs-string">"beige"</span>)
+  puts <span class="hljs-string">"gross! I hate beige"</span>
+<span class="hljs-keyword">else</span>
+  puts <span class="hljs-string">"I'm glad there is no stinkin' beige in here!"</span>
+<span class="hljs-keyword">end</span>
+</code></pre>
+<p>This time, our first <code>puts</code> is ignored and only the second one shows up. This is the very nature of conditionals. It allows us to control the flow of our applications.</p>
+<p>For a real-world example, think about when you use Facebook, Twitter or Gmail. <strong>If</strong> you are already logged in, it takes you to your homepage/inbox/whatever, <strong>else</strong> it takes you to the page where you can login.
+Try using an if/else conditional on something else you know will fail. Pretty handy to have that <code>else</code> isn&#39;t it? You can even write something like the following if you&#39;d like:</p>
+<pre><code class="lang-ruby">magic_dog = <span class="hljs-keyword">nil</span>
+<span class="hljs-keyword">if</span> magic_dog
+  puts <span class="hljs-string">"wow, I didn't even set that variable"</span>
+<span class="hljs-keyword">else</span>
+  puts <span class="hljs-string">"oh, I definitely didn't"</span>
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-keyword">if</span> magic
+  puts <span class="hljs-string">"this won't run"</span>
+<span class="hljs-keyword">else</span>
+  puts <span class="hljs-string">"and this won't either?!?"</span>
+<span class="hljs-keyword">end</span>
+</code></pre>
+<p>What&#39;s going on there? If a variable is <code>nil</code> or <code>false</code>, it will fail the condition and drop down to the <code>else</code> clause. If you check a variable and it doesn&#39;t exist, it&#39;s <code>undefined</code> and will return a <code>NameError</code> instead of displaying anything. If we declared <code>magic_dog</code> as anything but <code>nil</code> or <code>false</code> and ran that conditional again, it should show the first line. Try this on your own now.</p>
+<p>In Ruby, the only values that can fail a conditional are <code>nil</code> and <code>false</code> (but only when they aren&#39;t surrounded by quotes, as that would make them strings). Up above, <code>magic_dog</code> was <code>nil</code> since we had yet to define a variable by that name, so it failed the condition. If you had swapped out <code>magic_dog</code> for <code>false</code> or <code>nil</code>, it would also have failed. Now, if we had declared <code>magic_dog</code> as an empty string <code>&quot;&quot;</code> or array <code>[]</code>, it would have actually passed since those values are not considered <code>nil</code> or <code>false</code> in Ruby.</p>
+<p>Now what if you want to have multiple conditions? We can do that as well by using <code>elsif</code>:</p>
+<pre><code class="lang-ruby"><span class="hljs-keyword">if</span> color_ary.<span class="hljs-keyword">include</span>?(<span class="hljs-string">"pink"</span>)
+  puts <span class="hljs-string">"wow, didn't expect pink in here!"</span>
+<span class="hljs-keyword">elsif</span> color_ary.<span class="hljs-keyword">include</span>?(<span class="hljs-string">"magenta"</span>)
+  puts <span class="hljs-string">"phew, at least we have magenta"</span>
+<span class="hljs-keyword">else</span>
+  puts <span class="hljs-string">"no pink, no magenta, I'm going home!"</span>
+<span class="hljs-keyword">end</span>
+</code></pre>
+<p>We can also use the double-equal comparison:</p>
+<pre><code class="lang-ruby">queen = <span class="hljs-string">"Elizabeth"</span>
+
+<span class="hljs-keyword">if</span> queen == <span class="hljs-string">"Elizabeth"</span>
+  puts <span class="hljs-string">"God save the queen"</span>
+<span class="hljs-keyword">elsif</span> queen == <span class="hljs-string">"Victoria"</span>
+  puts <span class="hljs-string">"She is not amused"</span>
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-keyword">if</span> queen != <span class="hljs-string">"Bloody Mary"</span>
+  puts <span class="hljs-string">"phew, dodged a bullet there"</span>
+<span class="hljs-keyword">end</span>
+</code></pre>
+<p>On top of that, we can require multiple conditions to be true using <code>&amp;&amp;</code> (and) and check to see if one or the other conditions is true with <code>||</code> (or).</p>
+<pre><code class="lang-ruby">his = <span class="hljs-string">"Jack"</span>
+hers = <span class="hljs-string">"Jill"</span>
+<span class="hljs-keyword">if</span> his == <span class="hljs-string">"Jack"</span> &amp;&amp; hers == <span class="hljs-string">"Jill"</span>
+  print <span class="hljs-string">"Jack and Jill"</span>
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-keyword">if</span> his == <span class="hljs-string">"John"</span> || hers == <span class="hljs-string">"Jill"</span>
+  print <span class="hljs-string">"one or the other"</span>
+<span class="hljs-keyword">end</span>
+</code></pre>
+<hr>
+<h2 id="exercise-4">Exercise 4</h2>
+<p>Go ahead and write a couple of conditionals that use boolean comparisons (<code>==</code> or <code>!=</code>), <code>elsif</code>, as well as <code>&amp;&amp;</code> and <code>||</code>. Try to think about why you might want to use &amp;&amp; instead of nested if conditionals (hint: which one might be less lines of code/less complicated).</p>
+
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../pairing_session_prep/loops.html" class="navigation navigation-prev " aria-label="Previous page: Loops"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../pairing_session_prep/case_statements.html" class="navigation navigation-next " aria-label="Next page: Case Statements"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
