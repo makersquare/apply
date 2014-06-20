@@ -27,8 +27,8 @@
        * [Hashes](pairing_session_prep/hashes.md)
        * [More Useful Methods](pairing_session_prep/additional_methods_&_extra_practice.md)
        * [Extra Practice](pairing_session_prep/extra_practice.md)
-   * [Ruby Classes](pairing_session_prep/ruby_classes.md)
-       * [Let's Go For a Ride](pairing_session_prep/lets_go_for_a_ride.md)
-   * [Cookbook App](pairing_session_prep/cookbook_app.md)
+       * [Classes](pairing_session_prep/ruby_classes.md)
+       * [Project: Let's Go For a Ride](pairing_session_prep/lets_go_for_a_ride.md)
+       * [Project: Cookbook App](pairing_session_prep/cookbook_app.md)
 * [Coding Challenge](coding_challenge/README.md)
 

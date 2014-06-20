@@ -1,10 +1,15 @@
 CACHE MANIFEST
-# Revision 1403197461489
+# Revision 1403230325212
 
 CACHE:
 index.html
 coding_challenge/README.html
 makersquares_application_process/README.html
+makersquares_application_process/coding_challenge.html
+makersquares_application_process/first_interview.html
+makersquares_application_process/online_application.html
+makersquares_application_process/pairing_session.html
+makersquares_application_process/written_application.html
 pairing_session_prep/inputoutput.html
 pairing_session_prep/README.html
 pairing_session_prep/arrays.html
@@ -22,7 +27,6 @@ pairing_session_prep/lets_go_for_a_ride.html
 pairing_session_prep/loops.html
 pairing_session_prep/math.html
 pairing_session_prep/methods.html
-pairing_session_prep/power_rangers_app.html
 pairing_session_prep/pulling_it_together.html
 pairing_session_prep/ruby_classes.html
 pairing_session_prep/ruby_fundamentals.html
