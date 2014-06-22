@@ -1,4 +1,4 @@
-# Prepping for MakerSquare
+# Applying to MakerSquare
 
 This book details the process of applying to MakerSquare, and the resources you'll need to prepare for the coding challenge at the end of the admissions process.
 
