@@ -4,7 +4,7 @@ Time: 30-45 minutes, via Skype or In-Person
 
 ##### What's it like?
 
-It's a very casual conversation where you get a chance to ask anything you want about MakerSquare, and we get a chance to really understand why you want to become a software developer. It's usually 30-45 minutes long.
+We're excited to meet you and get to know you better. We'll ask questions about your professional background, hobbies, and really understand why you want to be a software developer. This is also a great time to ask us any questions you have about the MakerSquare experience. It's usually 30-45 minutes long.
 
 ##### What do I need to prepare?
 
