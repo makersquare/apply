@@ -1,5 +1,7 @@
 # Ruby Fundamentals
 
+Start working through the [Codecademy Ruby Track](http://www.codecademy.com/tracks/ruby) alongside this tutorial.
+
 This lesson will introduce how to use IRB (Interactive Ruby Shell), using Ruby concepts that should be familiar to you (variables, hashes, arrays, loops). **Much of this will be a review of previous materials.** Feel free to go at your own pace - you don't have to tediously go through every step, but make sure you understand these concepts.
 
 <aside>
