@@ -2,7 +2,7 @@
 
 Time: Variable based on your programming experience.
 
-You can find the Coding Challange towards the end of this GitBook (Chapter 3). You may get a head start on the challenge right now, but the only requirement is that it is completed by the date of your Pairing Session. If it is not completed, do not fret, you will pair program with the instructor and complete it together.
+You can find the Coding Challange towards the end of this GitBook (Chapter 3). You may get a head start on the challenge right now, but the only requirement is that it is completed by the date of your Technical Interview. If it is not completed, do not fret, you will pair program with the instructor and complete it together.
 
 ##### What if I can't complete the challenge before my "Technical Interview"?
 
