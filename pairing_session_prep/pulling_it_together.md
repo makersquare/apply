@@ -14,4 +14,4 @@ JS    - You'll learn how to make them interactable, fun, and interact with the b
 Ruby  - You'll learn how to program, deal with logic, solve problems, and integrate various services.
 Rails - You'll learn how to utilize powerful software to avoid reinventing the wheel and create custom, interesting, and dynamic applications.
 
-Drink a beer, take a break, and get on to the rest of the prework.
+Drink a beer, take a break, and get on to the rest of the coding challenge prep.
