@@ -46,7 +46,7 @@ To make sure `@fuel` and `@distance` have values, run the `setup` method immedia
 
 ----
 
-I don't know about you, but I have a major problem with this **setup** (Excuse the pun). But really, if someone wants to use our class, they would have to know that they can't use the method to_s without running setup first. Keeping arbitrary rules for your classes is a bad practice!
+I don't know about you, but I have a major problem with this **setup** (Excuse the pun). But really, if someone wants to use our class, they would have to know that they can't use the method `get_info` without running setup first. Keeping arbitrary rules for your classes is a bad practice!
 
 ## Initialize
 

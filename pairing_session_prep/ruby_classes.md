@@ -43,8 +43,6 @@ To make message passing easy, you can take the action out of the message and rep
 
 `"hello".send(:reverse)` becomes `"hello".reverse`
 
-Convert the 4 lines of code from above into the new format.
-
 ----
 
 ## Exercise #1

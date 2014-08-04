@@ -53,7 +53,7 @@ end
 
 What's going on there? If a variable is `nil` or `false`, it will fail the condition and drop down to the `else` clause. If you check a variable and it doesn't exist, it's `undefined` and will return a `NameError` instead of displaying anything. If we declared `magic_dog` as anything but `nil` or `false` and ran that conditional again, it should show the first line. Try this on your own now.
 
-In Ruby, the only values that can fail a conditional are `nil` and `false` (but only when they aren't surrounded by quotes, as that would make them strings). Up above, `magic_dog` was `nil` since we had yet to define a variable by that name, so it failed the condition. If you had swapped out `magic_dog` for `false` or `nil`, it would also have failed. Now, if we had declared `magic_dog` as an empty string `""` or array `[]`, it would have actually passed since those values are not considered `nil` or `false` in Ruby.
+In Ruby, the only values that can fail a conditional are `nil` and `false` (but only when they aren't surrounded by quotes, as that would make them strings). Up above, we defined `magic_dog` as `nil`, so it failed the condition. If you had swapped out `magic_dog` for `false` or `nil`, it would also have failed. Now, if we had declared `magic_dog` as an empty string `""` or array `[]`, it would have actually passed since those values are not considered `nil` or `false` in Ruby.
 
 Now what if you want to have multiple conditions? We can do that as well by using `elsif`:
 
